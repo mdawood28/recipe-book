@@ -19,4 +19,4 @@ phases:
       - test -f app.js
       - test -f package.json
       - test -f public/css/style.css
-      - echo Application checks passed!
+      - echo "All application checks passed!"
