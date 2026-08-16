@@ -1,0 +1,25 @@
+{
+    "id": "chicken-biryani",
+    "title": "Authentic Chicken Biryani",
+    "category": "Dinner",
+    "image": "/images/chicken-biryani.jpg",
+    "cookTime": "60 mins",
+    "servings": 6,
+    "ingredients": [
+        "750g Chicken",
+        "3 cups Basmati Rice",
+        "1 cup Yogurt",
+        "3 Large Onions, thinly sliced",
+        "2 tbsp Biryani Masala",
+        "Fresh Mint and Coriander",
+        "Pinch of Saffron or food coloring"
+    ],
+    "steps": [
+        "Marinate the chicken in yogurt, biryani masala, ginger garlic paste, and half the mint/coriander for 30 mins.",
+        "Fry the thinly sliced onions in oil until golden brown and crispy. Set half aside for garnish.",
+        "Add the marinated chicken to the remaining onions and cook until the oil separates and meat is tender.",
+        "In a separate large pot, boil the rice in heavily salted water until 70% cooked. Drain well.",
+        "Layer the chicken gravy at the bottom of a heavy pot, top with the par-boiled rice, fried onions, and a splash of saffron water.",
+        "Cover with a tight lid (dum) and cook on very low heat for 15-20 minutes. Fluff gently before serving."
+    ]
+}

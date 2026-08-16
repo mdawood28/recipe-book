@@ -1,0 +1,24 @@
+{
+    "id": "kheer",
+    "title": "Traditional Rice Kheer",
+    "category": "Dessert",
+    "image": "/images/kheer.jpg",
+    "cookTime": "1 hour",
+    "servings": 6,
+    "ingredients": [
+        "1.5 Liters Full-fat Milk",
+        "1/2 cup Basmati Rice",
+        "3/4 cup Sugar",
+        "1/2 tsp Cardamom Powder",
+        "2 tbsp Chopped Almonds",
+        "2 tbsp Chopped Pistachios"
+    ],
+    "steps": [
+        "Wash and soak the basmati rice for 30 minutes. Drain and coarsely crush it with your hands.",
+        "In a heavy-bottomed pan, bring the milk to a boil.",
+        "Add the crushed rice, lower the heat, and simmer, stirring frequently to prevent sticking.",
+        "Cook for about 40 minutes until the milk reduces and thickens, and the rice is completely soft.",
+        "Stir in the sugar and cardamom powder. Cook for another 10 minutes.",
+        "Remove from heat, garnish with chopped nuts, and chill in the refrigerator before serving."
+    ]
+}

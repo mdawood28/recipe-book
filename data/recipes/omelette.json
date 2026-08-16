@@ -1,0 +1,25 @@
+{
+    "id": "omelette",
+    "title": "Desi Masala Omelette",
+    "category": "Breakfast",
+    "image": "/images/omelette.jpg",
+    "cookTime": "10 mins",
+    "servings": 1,
+    "ingredients": [
+        "2 Large Eggs",
+        "1 small Onion, finely diced",
+        "1 small Tomato, diced",
+        "1 Green Chili, chopped",
+        "1/4 tsp Red Chili Powder",
+        "1/4 tsp Turmeric",
+        "1 tbsp Butter"
+    ],
+    "steps": [
+        "Crack eggs into a bowl and whisk vigorously until frothy.",
+        "Add chopped onions, tomatoes, green chilies, red chili powder, turmeric, and salt. Mix well.",
+        "Melt butter in a non-stick frying pan over medium-low heat.",
+        "Pour the egg mixture evenly into the pan. Let it cook undisturbed for 2-3 minutes.",
+        "Carefully fold the omelette in half. Cook for another minute until the inside is just set.",
+        "Serve hot with crispy toast or paratha."
+    ]
+}

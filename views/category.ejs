@@ -1,0 +1,32 @@
+<%- include('partials/head') %>
+    <%- include('partials/navbar') %>
+
+        <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+            <!-- Category Header -->
+            <div class="text-center mb-16">
+                <h1 class="font-serif text-5xl font-bold text-charcoal mb-6 capitalize">
+                    <%= category.name %> Recipes
+                </h1>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
+                    <%= category.description %>
+                </p>
+                <div class="h-1 w-24 bg-accent mx-auto rounded-full"></div>
+            </div>
+
+            <!-- Recipes Grid -->
+            <% if (recipes.length> 0) { %>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+                    <% recipes.forEach(function(recipe) { %>
+                        <%- include('partials/recipe-card', { recipe: recipe }) %>
+                            <% }); %>
+                </div>
+                <% } else { %>
+                    <div class="text-center py-20 bg-white rounded-3xl border border-dashed border-gray-300">
+                        <span class="text-5xl mb-4 block">👩‍🍳</span>
+                        <h3 class="text-2xl font-serif font-bold text-charcoal mb-2">No recipes yet</h3>
+                        <p class="text-gray-500">We are still cooking up something special for this category.</p>
+                    </div>
+                    <% } %>
+        </main>
+
+        <%- include('partials/footer') %>

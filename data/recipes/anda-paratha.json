@@ -1,0 +1,25 @@
+{
+    "id": "anda-paratha",
+    "title": "Classic Anda Paratha",
+    "category": "Breakfast",
+    "image": "/images/anda-paratha.jpg",
+    "cookTime": "15 mins",
+    "servings": 2,
+    "ingredients": [
+        "1 cup Whole Wheat Flour",
+        "2 Large Eggs",
+        "2 tbsp Ghee or Oil",
+        "1/2 tsp Salt",
+        "1/4 tsp Black Pepper",
+        "1 Green Chili, finely chopped",
+        "Fresh Coriander leaves"
+    ],
+    "steps": [
+        "Knead the whole wheat flour with a pinch of salt and water to form a soft, pliable dough. Let it rest for 10 minutes.",
+        "Divide the dough into two balls. Roll one out into a thin flatbread.",
+        "In a small bowl, whisk the eggs with salt, pepper, chopped green chili, and coriander.",
+        "Heat a tawa (griddle) over medium heat. Cook the paratha lightly on both sides.",
+        "Pour half of the egg mixture evenly over the top of the paratha.",
+        "Carefully flip the paratha, add ghee around the edges, and press gently until the egg is cooked and the bread is crispy and golden."
+    ]
+}

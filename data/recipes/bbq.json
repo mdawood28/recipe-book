@@ -1,0 +1,25 @@
+{
+    "id": "bbq",
+    "title": "Spicy BBQ Chicken Tikka",
+    "category": "Dinner",
+    "image": "/images/bbq.jpg",
+    "cookTime": "45 mins",
+    "servings": 4,
+    "ingredients": [
+        "1 Whole Chicken, cut into 8 pieces",
+        "1/2 cup Thick Yogurt",
+        "2 tbsp Tikka Masala",
+        "1 tbsp Lemon Juice",
+        "1 tbsp Ginger Garlic Paste",
+        "1 tsp Kashmiri Red Chili",
+        "2 tbsp Melted Butter for basting"
+    ],
+    "steps": [
+        "Make deep cuts in the chicken pieces to allow the marinade to penetrate.",
+        "Mix yogurt, tikka masala, lemon juice, ginger garlic paste, and Kashmiri chili in a bowl.",
+        "Coat the chicken thoroughly with the marinade. Cover and refrigerate for at least 4 hours, overnight is best.",
+        "Preheat a charcoal grill or an oven to 200°C (400°F).",
+        "Grill the chicken for 15-20 minutes per side, basting occasionally with melted butter.",
+        "Serve hot with mint chutney and fresh onion rings."
+    ]
+}

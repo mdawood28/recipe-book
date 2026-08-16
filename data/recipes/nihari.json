@@ -1,0 +1,24 @@
+{
+    "id": "nihari",
+    "title": "Slow-Cooked Beef Nihari",
+    "category": "Dinner",
+    "image": "/images/nihari.jpg",
+    "cookTime": "4 hours",
+    "servings": 6,
+    "ingredients": [
+        "1kg Beef Shank (Bong) with marrow bones",
+        "3 tbsp Nihari Masala",
+        "1 cup Ghee or Oil",
+        "1 tbsp Ginger Garlic Paste",
+        "1/2 cup Whole Wheat Flour (Atta)",
+        "Julienned Ginger, Green Chilies, Lemon (Garnish)"
+    ],
+    "steps": [
+        "Heat ghee in a heavy-bottomed pot. Add meat and bones, frying until browned.",
+        "Add ginger garlic paste and Nihari masala, sautéing for a few minutes until fragrant.",
+        "Pour in 6-8 cups of water, bring to a boil, cover tightly, and simmer on low heat for 3.5 to 4 hours until the meat is incredibly tender.",
+        "Dissolve the wheat flour in water to make a smooth slurry.",
+        "Slowly pour the flour slurry into the boiling gravy while stirring constantly to thicken it.",
+        "Simmer for another 15 minutes. Serve hot garnished with ginger, chilies, and a squeeze of lemon."
+    ]
+}

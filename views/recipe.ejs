@@ -1,0 +1,114 @@
+<%- include('partials/head') %>
+    <%- include('partials/navbar') %>
+
+        <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+
+            <div class="bg-white rounded-[2rem] shadow-xl overflow-hidden border border-cream-100">
+                <div class="flex flex-col lg:flex-row">
+
+                    <!-- Left: Large Image Area -->
+                    <div class="lg:w-1/2 relative min-h-[400px] lg:min-h-full">
+                        <img src="<%= recipe.image %>" alt="<%= recipe.title %>"
+                            class="absolute inset-0 w-full h-full object-cover"
+                            onerror="this.src='https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=1000'">
+                        <div class="absolute top-6 left-6">
+                            <a href="/category/<%= recipe.category.toLowerCase() %>"
+                                class="bg-white/90 backdrop-blur shadow-sm px-4 py-1.5 rounded-full text-sm font-bold text-accent uppercase tracking-wider hover:bg-accent hover:text-white transition-colors">
+                                <%= recipe.category %>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Right: Content Area -->
+                    <div class="lg:w-1/2 p-8 md:p-12 lg:p-16 flex flex-col justify-center">
+
+                        <h1 class="font-serif text-4xl lg:text-5xl font-bold text-charcoal mb-8 leading-tight">
+                            <%= recipe.title %>
+                        </h1>
+
+                        <!-- Badges Container -->
+                        <div class="flex flex-wrap gap-4 mb-10 pb-10 border-b border-gray-100">
+                            <div class="flex items-center gap-3 bg-cream-50 px-5 py-3 rounded-2xl">
+                                <div class="bg-white p-2 rounded-xl shadow-sm text-accent">
+                                    <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="text-xs text-gray-500 uppercase tracking-wider font-semibold">Cook Time
+                                    </p>
+                                    <p class="font-bold text-charcoal">
+                                        <%= recipe.cookTime %>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-3 bg-cream-50 px-5 py-3 rounded-2xl">
+                                <div class="bg-white p-2 rounded-xl shadow-sm text-accent">
+                                    <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="text-xs text-gray-500 uppercase tracking-wider font-semibold">Yields</p>
+                                    <p class="font-bold text-charcoal">
+                                        <%= recipe.servings %> Servings
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Ingredients Section -->
+                        <div class="mb-12">
+                            <h2 class="font-serif text-2xl font-bold text-charcoal mb-6 flex items-center gap-3">
+                                <span class="bg-accent/10 text-accent p-2 rounded-lg">🛒</span>
+                                Ingredients
+                            </h2>
+                            <ul class="grid grid-cols-1 md:grid-cols-2 gap-y-3 gap-x-6">
+                                <% recipe.ingredients.forEach(function(ingredient) { %>
+                                    <li class="flex items-start gap-3 py-2 border-b border-gray-50 last:border-0">
+                                        <svg class="w-5 h-5 text-emerald-600 flex-shrink-0 mt-0.5" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M5 13l4 4L19 7" />
+                                        </svg>
+                                        <span class="text-gray-700 font-medium">
+                                            <%= ingredient %>
+                                        </span>
+                                    </li>
+                                    <% }); %>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Instructions Section (Bottom full width) -->
+                <div class="bg-cream-50 p-8 md:p-12 lg:p-16 border-t border-cream-100">
+                    <div class="max-w-4xl mx-auto">
+                        <h2 class="font-serif text-3xl font-bold text-charcoal mb-8 text-center">Instructions</h2>
+                        <div class="space-y-8">
+                            <% recipe.steps.forEach(function(step, index) { %>
+                                <div class="flex gap-6 md:gap-8 group">
+                                    <div class="flex-shrink-0">
+                                        <div
+                                            class="w-12 h-12 rounded-2xl bg-white text-accent font-serif font-bold text-xl flex items-center justify-center shadow-sm group-hover:bg-accent group-hover:text-white transition-colors duration-300">
+                                            <%= String(index + 1).padStart(2, '0' ) %>
+                                        </div>
+                                    </div>
+                                    <div class="pt-2">
+                                        <p class="text-lg text-gray-700 leading-relaxed font-medium">
+                                            <%= step %>
+                                        </p>
+                                    </div>
+                                </div>
+                                <% }); %>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <%- include('partials/footer') %>

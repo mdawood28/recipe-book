@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Breakfast",
+        "slug": "breakfast",
+        "description": "Start your day with delicious homemade breakfast recipes.",
+        "image": "/images/breakfast.jpg"
+    },
+    {
+        "name": "Lunch",
+        "slug": "lunch",
+        "description": "Delicious and satisfying recipes for lunchtime.",
+        "image": "/images/lunch.jpg"
+    },
+    {
+        "name": "Dinner",
+        "slug": "dinner",
+        "description": "Hearty recipes perfect for a memorable dinner.",
+        "image": "/images/dinner.jpg"
+    },
+    {
+        "name": "Dessert",
+        "slug": "dessert",
+        "description": "Sweet treats to finish your meal perfectly.",
+        "image": "/images/dessert.jpeg"
+    }
+]

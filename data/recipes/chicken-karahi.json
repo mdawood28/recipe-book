@@ -1,0 +1,25 @@
+{
+    "id": "chicken-karahi",
+    "title": "Dhaba Style Chicken Karahi",
+    "category": "Lunch",
+    "image": "/images/chicken-karahi.jpg",
+    "cookTime": "35 mins",
+    "servings": 4,
+    "ingredients": [
+        "750g Bone-in Chicken",
+        "5 ripe Tomatoes, halved",
+        "1 tbsp Ginger Garlic Paste",
+        "4 Green Chilies",
+        "1 tsp Black Pepper, crushed",
+        "1 tsp Roasted Cumin Powder",
+        "1/2 cup Oil"
+    ],
+    "steps": [
+        "Heat oil in a wok (karahi). Add chicken and fry on high heat until the color changes.",
+        "Add ginger garlic paste and fry for another 2 minutes.",
+        "Place halved tomatoes face down over the chicken, cover, and steam on low heat for 10 mins.",
+        "Remove the tomato skins, increase heat, and mash the tomatoes into the chicken to form a thick gravy.",
+        "Add salt, crushed black pepper, and cumin. Fry vigorously (bhunai) until oil separates.",
+        "Garnish with julienned ginger and green chilies. Serve with fresh naan."
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "id": "daal-chawal",
+    "title": "Comforting Daal Chawal",
+    "category": "Lunch",
+    "image": "/images/daal-chawal.jpg",
+    "cookTime": "45 mins",
+    "servings": 4,
+    "ingredients": [
+        "1 cup Yellow Lentils (Moong/Masoor mix)",
+        "2 cups Basmati Rice",
+        "1 tsp Turmeric Powder",
+        "1 tsp Red Chili Powder",
+        "3 cloves Garlic, sliced",
+        "1 tsp Cumin Seeds",
+        "2 tbsp Ghee (for Tarka)"
+    ],
+    "steps": [
+        "Wash the lentils thoroughly and boil with turmeric, red chili, and salt until soft and mushy (about 25 mins).",
+        "Wash basmati rice and soak for 20 minutes. Boil in salted water until fully cooked, then drain.",
+        "Whisk the cooked daal until smooth. Add hot water if it is too thick.",
+        "For the tarka (tempering): Heat ghee in a small pan, add sliced garlic and fry until golden.",
+        "Add cumin seeds to the hot ghee, let them crackle, and pour immediately over the hot daal.",
+        "Serve the hot daal over the boiled white rice."
+    ]
+}

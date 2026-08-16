@@ -1,0 +1,25 @@
+{
+    "id": "pancakes",
+    "title": "Fluffy Buttermilk Pancakes",
+    "category": "Breakfast",
+    "image": "/images/pancakes.jpg",
+    "cookTime": "20 mins",
+    "servings": 4,
+    "ingredients": [
+        "1.5 cups All-Purpose Flour",
+        "2 tbsp Sugar",
+        "2 tsp Baking Powder",
+        "1.5 cups Buttermilk",
+        "1 Large Egg",
+        "3 tbsp Melted Butter",
+        "Maple Syrup for serving"
+    ],
+    "steps": [
+        "In a large bowl, whisk together the flour, sugar, baking powder, and a pinch of salt.",
+        "In a separate bowl, whisk the buttermilk, egg, and melted butter.",
+        "Pour the wet ingredients into the dry ingredients and stir gently until just combined. Lumps are okay!",
+        "Heat a lightly oiled griddle or frying pan over medium-high heat.",
+        "Pour a 1/4 cup of batter for each pancake. Cook until bubbles form on the surface, then flip.",
+        "Cook until browned on the other side. Serve warm with maple syrup."
+    ]
+}

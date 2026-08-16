@@ -1,0 +1,25 @@
+{
+    "id": "chocolate-cake",
+    "title": "Decadent Chocolate Cake",
+    "category": "Dessert",
+    "image": "/images/chocolate-cake.jpg",
+    "cookTime": "45 mins",
+    "servings": 8,
+    "ingredients": [
+        "1.5 cups All-Purpose Flour",
+        "1.5 cups Sugar",
+        "3/4 cup Cocoa Powder",
+        "1.5 tsp Baking Soda",
+        "2 Large Eggs",
+        "1 cup Milk",
+        "1/2 cup Vegetable Oil"
+    ],
+    "steps": [
+        "Preheat the oven to 175°C (350°F). Grease and line a round baking pan.",
+        "In a large bowl, sift together the flour, sugar, cocoa powder, baking soda, and salt.",
+        "Add the eggs, milk, and oil. Beat on medium speed for 2 minutes until smooth.",
+        "Pour the batter into the prepared pan.",
+        "Bake for 30-35 minutes, or until a wooden toothpick inserted into the center comes out clean.",
+        "Let it cool completely before frosting with your favorite chocolate ganache or buttercream."
+    ]
+}
